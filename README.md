@@ -1,4 +1,3 @@
 # Bank_Application
 
-This multi-tier bank application incorporates the Model View Controller design pattern and specifically ASP.NET MVC  to realize CRUD functions along with a relational database. 
-
+This project is a multi-tier bank application that leverages the Model-View-Controller (MVC) design pattern, implemented using ASP.NET MVC, to perform CRUD operations with a relational database. It also includes a Web Service designed for interoperability between Windows and Web applications. The Windows application was developed using C# and .NET Framework, with SQL Server handling the database operations. The Web application utilizes ASP.NET. The application was developed in a multi-threaded environment, with threads created both manually and through external devices operating on separate threads.

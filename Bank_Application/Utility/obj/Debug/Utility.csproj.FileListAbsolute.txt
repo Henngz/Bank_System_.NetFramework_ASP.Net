@@ -16,3 +16,9 @@ D:\BIT Term3\ADEV\M2 old\Utility\obj\Debug\Utility.csproj.AssemblyReference.cach
 D:\BIT Term3\ADEV\M2 old\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
 D:\BIT Term3\ADEV\M2 old\Utility\obj\Debug\Utility.dll
 D:\BIT Term3\ADEV\M2 old\Utility\obj\Debug\Utility.pdb
+D:\BIT Term3\ADEV\M3\Module3\Utility\bin\Debug\Utility.dll
+D:\BIT Term3\ADEV\M3\Module3\Utility\bin\Debug\Utility.pdb
+D:\BIT Term3\ADEV\M3\Module3\Utility\obj\Debug\Utility.csproj.AssemblyReference.cache
+D:\BIT Term3\ADEV\M3\Module3\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+D:\BIT Term3\ADEV\M3\Module3\Utility\obj\Debug\Utility.dll
+D:\BIT Term3\ADEV\M3\Module3\Utility\obj\Debug\Utility.pdb

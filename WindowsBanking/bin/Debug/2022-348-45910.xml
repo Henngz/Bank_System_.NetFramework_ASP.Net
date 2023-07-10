@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- Bank Transfer file -->
+
+<account_update date="2022-12-14" institution="45910" checksum="122221">
+	<transaction>
+		<institution>45910</institution>
+		<account_no>11111</account_no>
+		<type>9</type>
+		<amount>0</amount>
+		<notes>***ERROR invalid transaction type***</notes>
+	</transaction>
+	<transaction>
+		<institution>45910</institution>
+		<account_no>11111</account_no>
+		<type>6</type>
+		<amount>0</amount>
+		<notes>Valid Interest Charge/Payment</notes>
+	</transaction>
+	<transaction>
+		<institution>45910</institution>
+		<account_no>22222</account_no>
+		<type>6</type>
+		<amount>0</amount>
+		<notes>Valid Interest Charge/Payment</notes>
+	</transaction>
+	<transaction>
+		<institution>45910</institution>
+		<account_no>33333</account_no>
+		<type>6</type>
+		<amount>0</amount>
+		<notes>Valid Interest Charge/Payment</notes>
+	</transaction>
+	<transaction>
+		<institution>45910</institution>
+		<account_no>44444</account_no>
+		<type>6</type>
+		<amount>0</amount>
+		<notes>Valid Interest Charge/Payment</notes>
+	</transaction>
+</account_update>

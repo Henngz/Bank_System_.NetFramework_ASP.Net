@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!-- Bank Transfer file -->
+
+<account_update date="2022-12-14" institution="32958" checksum="256664">
+	<transaction>
+		<institution>32958</institution>
+		<account_no>11111</account_no>
+		<type>9</type>
+		<amount>90</amount>
+		<notes>***ERROR***invalid transaction type</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>zero</amount>
+		<notes>***ERROR***non-numeric withdrawal amount</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>1111</account_no>
+		<type>2</type>
+		<amount>10</amount>
+		<notes>***ERROR***invalid account number</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>11111</account_no>
+		<type>withdrawal</type>
+		<amount>0</amount>
+		<notes>***ERROR***non-numeric tranaction type</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>22222</account_no>
+		<type>2</type>
+		<amount>1</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>ten</amount>
+		<notes>***ERROR***non-numeric withdrawal amount</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<notes>***ERROR***missing child node</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>22222</account_no>
+		<type>2</type>
+		<amount>1</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>22222</account_no>
+		<type>2</type>
+		<amount>1</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>33333</account_no>
+		<type>2</type>
+		<amount>1000</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>22222</account_no>
+		<type>2</type>
+		<amount>1</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>44444</account_no>
+		<type>2</type>
+		<amount>1000</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>32958</institution>
+		<account_no>33333</account_no>
+		<type>2</type>
+		<amount>100</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+</account_update>

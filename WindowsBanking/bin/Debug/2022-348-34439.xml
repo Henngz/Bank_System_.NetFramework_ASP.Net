@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Bank Transfer file -->
+
+<account_update date="2022-12-14" institution="40902" checksum="33333">
+	<transaction>
+		<institution>40902</institution>
+		<account_no>33333</account_no>
+		<type>2</type>
+		<amount>90</amount>
+		<notes>***HEADER ERROR - BAD FROM INSTITUTION****</notes>
+	</transaction>
+</account_update>

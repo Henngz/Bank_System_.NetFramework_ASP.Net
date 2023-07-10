@@ -1,0 +1,17 @@
+
+Transaction completed successfully: Withdrawal - 1 applied to account 11111 .
+
+Transaction completed successfully: Withdrawal - 1 applied to account 11111 .
+
+Transaction completed successfully: Withdrawal - 5000 applied to account 33333 .
+
+Transaction completed successfully: Withdrawal - 90 applied to account 33333 .
+
+Transaction completed successfully: Withdrawal - 1.5 applied to account 22222 .
+
+Transaction completed successfully: Withdrawal - 1000 applied to account 44444 .
+
+Transaction completed successfully: Withdrawal - 90 applied to account 33333 .
+
+Transaction completed successfully: Withdrawal - 90 applied to account 33333 .
+

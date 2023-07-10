@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!-- Bank Transfer file -->
+
+<account_update date="2022-12-14" institution="44982" checksum="299997">
+	<transaction>
+		<institution>44982</institution>
+		<account_no>11111</account_no>
+		<type>9</type>
+		<amount>90</amount>
+		<notes>***ERROR invalid transaction type***</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>22222</account_no>
+		<type>2</type>
+		<amount>44.64</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>22222</account_no>
+		<type>2</type>
+		<amount>1</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>33333</account_no>
+		<type>2</type>
+		<amount>90</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>33333</account_no>
+		<type>2</type>
+		<amount>90</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>44444</account_no>
+		<type>2</type>
+		<amount>9000</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>44444</account_no>
+		<type>2</type>
+		<amount>1190</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>33333</account_no>
+		<type>2</type>
+		<amount>2909.09</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>22222</account_no>
+		<type>2</type>
+		<amount>451.25</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>33333</account_no>
+		<type>2</type>
+		<amount>1909.09</amount>
+		<notes>Valid Withdrawal</notes>
+	</transaction>
+</account_update>

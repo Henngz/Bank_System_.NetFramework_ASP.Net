@@ -1,0 +1,81 @@
+
+------ERROR------
+File: 2022-348-32958.xml
+Institution: <institution>32958</institution>
+Account Number: <account_no>11111</account_no>
+Transaction Type: <type>2</type>
+Amount: 
+Notes: <notes>***ERROR***missing child node</notes>
+Nodes: 4
+Incorrect number of Child Elements of Transactions.
+
+
+------ERROR------
+File: 2022-348-32958.xml
+Institution: <institution>32958</institution>
+Account Number: <account_no>11111</account_no>
+Transaction Type: <type>2</type>
+Amount: <amount>zero</amount>
+Notes: <notes>***ERROR***non-numeric withdrawal amount</notes>
+Nodes: 5
+Invalid data type of the Type or Amount number of Transactions
+
+
+------ERROR------
+File: 2022-348-32958.xml
+Institution: <institution>32958</institution>
+Account Number: <account_no>11111</account_no>
+Transaction Type: <type>withdrawal</type>
+Amount: <amount>0</amount>
+Notes: <notes>***ERROR***non-numeric tranaction type</notes>
+Nodes: 5
+Invalid data type of the Type or Amount number of Transactions
+
+
+------ERROR------
+File: 2022-348-32958.xml
+Institution: <institution>32958</institution>
+Account Number: <account_no>11111</account_no>
+Transaction Type: <type>2</type>
+Amount: <amount>ten</amount>
+Notes: <notes>***ERROR***non-numeric withdrawal amount</notes>
+Nodes: 5
+Invalid data type of the Type or Amount number of Transactions
+
+
+------ERROR------
+File: 2022-348-32958.xml
+Institution: <institution>32958</institution>
+Account Number: <account_no>11111</account_no>
+Transaction Type: <type>9</type>
+Amount: <amount>90</amount>
+Notes: <notes>***ERROR***invalid transaction type</notes>
+Nodes: 5
+Invalid Type Number of Transactions.
+
+
+------ERROR------
+File: 2022-348-32958.xml
+Institution: <institution>32958</institution>
+Account Number: <account_no>1111</account_no>
+Transaction Type: <type>2</type>
+Amount: <amount>10</amount>
+Notes: <notes>***ERROR***invalid account number</notes>
+Nodes: 5
+Acount_no does not exist.
+
+
+Transaction completed successfully: Withdrawal - 1 applied to account 22222 .
+
+Transaction completed successfully: Withdrawal - 1 applied to account 22222 .
+
+Transaction completed successfully: Withdrawal - 1 applied to account 22222 .
+
+Transaction completed successfully: Withdrawal - 1000 applied to account 33333 .
+
+Transaction completed successfully: Withdrawal - 1 applied to account 22222 .
+
+Transaction completed successfully: Withdrawal - 1000 applied to account 44444 .
+
+Transaction completed successfully: Withdrawal - 100 applied to account 33333 .
+

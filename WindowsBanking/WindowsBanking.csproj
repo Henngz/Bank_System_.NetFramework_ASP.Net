@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{939AD8EE-C822-4CD7-838E-48644F945EF7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsBanking</RootNamespace>
+    <AssemblyName>WindowsBanking</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Utility\bin\Debug\Utility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Batch.cs" />
+    <Compile Include="BatchProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchProcess.Designer.cs">
+      <DependentUpon>BatchProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientData.Designer.cs">
+      <DependentUpon>ClientData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\TransactionManagerServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ConstructorData.cs" />
+    <Compile Include="History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiDocInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiDocInterface.Designer.cs">
+      <DependentUpon>MultiDocInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessTransaction.Designer.cs">
+      <DependentUpon>ProcessTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BatchProcess.resx">
+      <DependentUpon>BatchProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientData.resx">
+      <DependentUpon>ClientData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiDocInterface.resx">
+      <DependentUpon>MultiDocInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessTransaction.resx">
+      <DependentUpon>ProcessTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Connected Services\TransactionManagerServiceReference\TransactionManager.wsdl" />
+    <None Include="Connected Services\TransactionManagerServiceReference\TransactionManager.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\TransactionManagerServiceReference\TransactionManager1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.AccountState.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.BankAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.BronzeState.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.ChequingAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.Client.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.GoldState.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.Institution.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.InvestmentAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.MortgageAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.NextChequingAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.NextClient.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.NextInvestmentAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.NextMortgageAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.NextSavingsAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.NextTransaction.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.NextUniqueNumber.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.Payee.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.PlatinumState.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.SavingsAccount.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.SilverState.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.StoredProcedure.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.Transaction.datasource" />
+    <None Include="Properties\DataSources\BankOfBIT_YZ.Models.TransactionType.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BankOfBIT_YZ\BankOfBIT_YZ.csproj">
+      <Project>{0a26c5c2-5ef2-403f-affe-4bf81879517a}</Project>
+      <Name>BankOfBIT_YZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MaskedLabel\MaskedLabel.csproj">
+      <Project>{049F1B57-22DE-42E2-A648-B64B82BF6DF5}</Project>
+      <Name>MaskedLabel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\TransactionManagerServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TransactionManagerServiceReference\TransactionManager.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TransactionManagerServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TransactionManagerServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TransactionManagerServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

@@ -1,0 +1,30 @@
+
+------ERROR------
+File: 2022-348-44982.xml
+Institution: <institution>44982</institution>
+Account Number: <account_no>11111</account_no>
+Transaction Type: <type>9</type>
+Amount: <amount>90</amount>
+Notes: <notes>***ERROR invalid transaction type***</notes>
+Nodes: 5
+Invalid Type Number of Transactions.
+
+
+Transaction completed successfully: Withdrawal - 44.64 applied to account 22222 .
+
+Transaction completed successfully: Withdrawal - 1 applied to account 22222 .
+
+Transaction completed successfully: Withdrawal - 90 applied to account 33333 .
+
+Transaction completed successfully: Withdrawal - 90 applied to account 33333 .
+
+Transaction completed successfully: Withdrawal - 9000 applied to account 44444 .
+
+Transaction completed successfully: Withdrawal - 1190 applied to account 44444 .
+
+Transaction completed successfully: Withdrawal - 2909.09 applied to account 33333 .
+
+Transaction completed successfully: Withdrawal - 451.25 applied to account 22222 .
+
+Transaction completed successfully: Withdrawal - 1909.09 applied to account 33333 .
+

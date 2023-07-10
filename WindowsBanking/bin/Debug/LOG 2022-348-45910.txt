@@ -1,0 +1,20 @@
+
+------ERROR------
+File: 2022-348-45910.xml
+Institution: <institution>45910</institution>
+Account Number: <account_no>11111</account_no>
+Transaction Type: <type>9</type>
+Amount: <amount>0</amount>
+Notes: <notes>***ERROR invalid transaction type***</notes>
+Nodes: 5
+Invalid Type Number of Transactions.
+
+
+Transaction completed successfully: Interest - 109.090833333333 applied to account 11111 .
+
+Transaction completed successfully: Interest - 5057.87313541667 applied to account 22222 .
+
+Transaction completed successfully: Interest - -258.358741666667 applied to account 33333 .
+
+Transaction completed successfully: Interest - 43509.55 applied to account 44444 .
+
